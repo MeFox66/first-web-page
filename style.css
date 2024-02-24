@@ -1,16 +1,15 @@
 
-
 * {
   margin:0;
   padding: 0;
 }
 
-
-
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   height: 5vh;
-  min-height: 5px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-image: url(img/coffee.jpg);
   background-size: cover;
   background-position: center;
@@ -51,25 +50,34 @@ ul li.active a {
   background-color: #fff;
   color: #000;
 }
-
-.Home.title {
+.title {
+  font-size: xx-large;
   color:rgb(0, 13, 194);
   padding-top: 10vh;
   padding-left:5vh;
   padding-bottom: 10vh;
 }
-.home_sub_text {
+
+.title1 {
+  font-size: xx-large;
+  color:rgb(0, 13, 194);
+  padding-top: 10vh;
+  padding-left:5vh;
+}
+
+.title2 {
+  font-size: xx-large;
+  color:rgb(0, 13, 194);
+  padding-left:5vh;
+  padding-bottom: 10vh;
+}
+.sub_text {
+  font-size: larger;
   display:grid;
   font-size: x-large;
   color:rgb(0, 13, 194);
   padding-left: 5vh;
   padding-top: 10px;
-}
-.home_sub_tex {
-  font-size: x-large;
-  color:rgb(0, 13, 194);
-  padding-left: 5vh;
-  padding-top: 1vh;
 }
 
 .search {
@@ -102,5 +110,18 @@ ul li.active a {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.Discord {
+  display: inline-flex;
+  align-items: center;
+}
+.dis {
+  padding-top: 10vh;
+  padding-right: 25px;
+}
+
+.discord_profile_pic {
+  width: 100px;
+  border-radius: 50px;
+}
 
 
